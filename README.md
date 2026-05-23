@@ -34,7 +34,10 @@ I'm an AI/ML Engineer specialising in **Generative AI**, **Multi-Agent Systems**
 | Project | Description | Stack |
 |---|---|---|
 | [engineering_portfolio](https://github.com/scod-code/engineering_portfolio) | Multi-agent AI systems, LLM evaluation, guardrails, MLOps CI/CD, REST APIs, CV | Python, LangChain, FastAPI, Docker |
-| [ai-safety-system](https://github.com/scod-code/ai-safety-system) | Real-time anomaly detection with OpenCV & YOLO, safety guardrails, REST API | Python, OpenCV, FastAPI |
+| [ai-safety-system](https://github.com/scod-code/ai-safety-system) | LLM-based explainable code evaluation platform with safety guardrails, rule-based violation detection, and REST API | Python, LangChain, FastAPI, Docker |
+| [multi-agent-llm-guardrails](https://github.com/scod-code/engineering_portfolio) | Multi-agent LLM orchestration with evaluation harness, guardrails, and CI/CD pipeline | Python, LangChain, Guardrails AI, Docker |
+| [autonomous-vehicle-detection](https://github.com/scod-code/engineering_portfolio) | Lane detection & object recognition using OpenCV and YOLO for real-time autonomous driving | Python, OpenCV, YOLO, TensorFlow |
+| [satellite-attitude-control](https://github.com/scod-code/engineering_portfolio) | GPS+IMU sensor fusion with Kalman filtering for satellite attitude estimation and control | Python, NumPy, FilterPy, MATLAB |
 
 ---
 
