@@ -2,7 +2,7 @@
 
 **MSc Artificial Intelligence | ML Engineer | GenAI & Multi-Agent Systems**
 
-Nottingham Trent University · Graduating 2025
+Nottingham Trent University 
 
 ---
 
