@@ -41,4 +41,4 @@ I'm an AI/ML Engineer specialising in **Generative AI**, **Multi-Agent Systems**
 
 ---
 
-*Currently seeking ML Engineer / AI Engineer roles — open to full-time opportunities starting 2025.*
+*Currently seeking ML Engineer / AI Engineer roles — open to full-time opportunities.*
