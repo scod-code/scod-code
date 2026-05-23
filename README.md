@@ -20,12 +20,12 @@ I'm an AI/ML Engineer specialising in **Generative AI**, **Multi-Agent Systems**
 
 ## Tech Stack
 
-**Languages:** Python · C++ · SQL · Bash  
+**Languages:** Python · C++ · Bash  
 **AI/ML:** PyTorch · TensorFlow · Hugging Face · LangChain · Scikit-learn · OpenCV · YOLO  
 **GenAI & LLMOps:** LLM Evaluation · Guardrails AI · Prompt Engineering · RAG Pipelines  
 **MLOps:** MLflow · Weights & Biases · GitHub Actions · Docker · CI/CD  
-**Backend:** FastAPI · REST APIs · PostgreSQL  
-**Robotics/Control:** ROS · MATLAB · Simulink · PID Controllers  
+**Backend:** FastAPI · REST APIs  
+**Robotics/Control:** ROS · MATLAB · Simulink  
 
 ---
 
