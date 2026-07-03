@@ -1,6 +1,6 @@
 # Hi, I'm Somtochukwu Osigwe-Daniel 👋
 
-**MSc Artificial Intelligence | ML Engineer | GenAI & Multi-Agent Systems**
+**MSc Robotics and Intelligent Systems | ML Engineer | GenAI & Multi-Agent Systems**
 
 Nottingham Trent University 
 
