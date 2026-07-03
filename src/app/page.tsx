@@ -331,7 +331,7 @@ function Education() {
               MSc Robotics and Intelligent Systems
             </h3>
             <p className="text-neutral-400">
-              Nottingham Trent University &bull; 2024 – Present
+              Nottingham Trent University &bull; 2025 – Present
             </p>
             <p className="mt-2 text-sm text-neutral-500">
               Focus: Autonomous systems, multi-agent orchestration, AI safety,
@@ -390,7 +390,7 @@ function Contact() {
             GitHub
           </a>
           <a
-            href="mailto:somtosigwedaniel@gmail.com"
+            href="mailto:somtoosigwe1@gmail.com"
             className="flex items-center gap-2 rounded-full border border-white/10 px-5 py-3 text-sm font-medium transition-colors hover:border-blue-400/50 hover:text-blue-400"
           >
             <MailIcon size={18} />
