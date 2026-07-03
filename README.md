@@ -1,6 +1,8 @@
 # Portfolio — Somtochukwu Osigwe-Daniel
 
-Professional portfolio website showcasing AI/ML engineering projects, algorithms work, and technical skills.
+Professional portfolio website for a Robotics & Intelligent Systems engineer, showcasing AI/ML projects, autonomous systems work, algorithms, and technical skills.
+
+**Live site:** [https://scod-code.github.io/scod-code/](https://scod-code.github.io/scod-code/)
 
 ## Tech Stack
 
@@ -20,7 +22,7 @@ Visit `http://localhost:3000`
 
 ## Build & Deploy
 
-The site auto-deploys to GitHub Pages on every push to `main` via the GitHub Actions workflow in `.github/workflows/deploy.yml`.
+The site auto-deploys to GitHub Pages on every push to the `portfolio` branch via the GitHub Actions workflow in `.github/workflows/deploy.yml`.
 
 To build locally:
 
@@ -43,9 +45,15 @@ src/
 
 ## Deployment to GitHub Pages
 
-1. Push this repo to GitHub
+1. Push to the `portfolio` branch on GitHub (`git push origin portfolio`)
 2. Go to **Settings > Pages > Source** and select **GitHub Actions**
-3. The workflow will build and deploy automatically on push to `main`
+3. The workflow will build and deploy automatically on push to `portfolio`
+
+## Links
+
+- **GitHub Portfolio Repo:** [github.com/scod-code/engineering_portfolio](https://github.com/scod-code/engineering_portfolio)
+- **LinkedIn:** [linkedin.com/in/somtoosigwedaniel](https://www.linkedin.com/in/somtoosigwedaniel/)
+- **GitHub Profile:** [github.com/scod-code](https://github.com/scod-code)
 
 ## Customization
 
