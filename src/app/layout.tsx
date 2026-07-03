@@ -2,26 +2,27 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Somtochukwu Osigwe-Daniel | AI/ML Engineer",
+  title: "Somtochukwu Osigwe-Daniel | Robotics & Intelligent Systems Engineer",
   description:
-    "MSc Artificial Intelligence at Nottingham Trent University. Specializing in Generative AI, Multi-Agent Systems, LLM Safety & Evaluation, and MLOps.",
+    "MSc Robotics and Intelligent Systems at Nottingham Trent University. Specializing in autonomous systems, Generative AI, Multi-Agent Orchestration, and MLOps.",
   keywords: [
+    "Robotics Engineer",
+    "Intelligent Systems",
     "AI Engineer",
     "ML Engineer",
     "Generative AI",
     "Multi-Agent Systems",
-    "LLM",
     "MLOps",
     "Python",
     "C++",
     "Nottingham Trent University",
-    "Robotics",
+    "Autonomous Systems",
   ],
   authors: [{ name: "Somtochukwu Osigwe-Daniel" }],
   openGraph: {
-    title: "Somtochukwu Osigwe-Daniel | AI/ML Engineer",
+    title: "Somtochukwu Osigwe-Daniel | Robotics & Intelligent Systems Engineer",
     description:
-      "Building end-to-end ML pipelines, deploying REST APIs, and engineering scalable systems from research prototype to production.",
+      "Building intelligent autonomous systems, end-to-end ML pipelines, and engineering scalable solutions from research to production.",
     type: "website",
   },
 };

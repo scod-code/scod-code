@@ -94,13 +94,14 @@ const SKILLS: Record<string, string[]> = {
     "LangChain",
     "PyTorch",
   ],
-  "AI/ML & GenAI": [
+  "AI/ML & Robotics": [
     "Multi-Agent Systems",
     "LLM Fine-tuning",
     "LLM Safety & Evaluation",
     "Generative AI",
     "RAG Pipelines",
-    "Prompt Engineering",
+    "Robotics & Control",
+    "Autonomous Systems",
   ],
   "Core CS": [
     "Dynamic Programming",
@@ -118,6 +119,7 @@ const SKILLS: Record<string, string[]> = {
     "Jupyter",
     "Make",
     "MATLAB",
+    "ROS",
     "REST APIs",
   ],
 };
@@ -169,12 +171,12 @@ function Hero() {
           <span className="text-blue-400">Osigwe-Daniel</span>
         </h1>
         <p className="mb-2 text-xl text-neutral-300 sm:text-2xl">
-          AI/ML Engineer &bull; GenAI &amp; Multi-Agent Systems
+          Robotics &amp; Intelligent Systems &bull; AI/ML Engineer
         </p>
         <p className="mx-auto mb-8 max-w-2xl text-neutral-500">
-          MSc Artificial Intelligence at Nottingham Trent University.
-          Building end-to-end ML pipelines, deploying scalable systems,
-          and pushing the frontier of LLM safety and multi-agent orchestration.
+          MSc Robotics and Intelligent Systems at Nottingham Trent University.
+          Building intelligent autonomous systems, end-to-end ML pipelines,
+          and pushing the frontier of multi-agent orchestration and AI safety.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <a
@@ -208,26 +210,26 @@ function About() {
       <h2 className="mb-8 text-3xl font-bold">About Me</h2>
       <div className="space-y-4 text-neutral-400 leading-relaxed">
         <p>
-          I&apos;m an AI/ML Engineer specialising in{" "}
-          <span className="text-white font-medium">Generative AI</span>,{" "}
-          <span className="text-white font-medium">Multi-Agent Systems</span>,{" "}
-          <span className="text-white font-medium">LLM Safety &amp; Evaluation</span>, and{" "}
-          <span className="text-white font-medium">MLOps</span>. I build end-to-end ML
-          pipelines, deploy REST APIs, and engineer scalable systems from research
-          prototype to production.
+          I&apos;m an engineer at the intersection of{" "}
+          <span className="text-white font-medium">Robotics</span>,{" "}
+          <span className="text-white font-medium">Intelligent Systems</span>,{" "}
+          <span className="text-white font-medium">Generative AI</span>, and{" "}
+          <span className="text-white font-medium">MLOps</span>. I design and build
+          autonomous systems, deploy end-to-end ML pipelines, and engineer scalable
+          solutions from research prototype to production.
         </p>
         <p>
           My academic journey started at Rutgers University with Applied Sciences
           in Engineering, where I developed a strong foundation in C++, algorithms,
-          and systems-level thinking. I&apos;m now completing my MSc in Artificial
-          Intelligence at Nottingham Trent University, focusing on multi-agent
-          LLM orchestration, guardrails, and AI safety pipelines.
+          and systems-level thinking. I&apos;m now completing my MSc in Robotics
+          and Intelligent Systems at Nottingham Trent University, focusing on
+          multi-agent orchestration, autonomous systems, and AI safety pipelines.
         </p>
         <p>
           I bridge the gap between low-level system efficiency and high-level AI
-          research — equally comfortable optimizing memory-managed C++ code as I am
-          fine-tuning large language models and deploying them behind FastAPI endpoints
-          with Docker.
+          research — equally comfortable optimizing memory-managed C++ code and
+          embedded systems as I am fine-tuning large language models and deploying
+          them behind FastAPI endpoints with Docker.
         </p>
       </div>
     </section>
@@ -326,14 +328,14 @@ function Education() {
           </div>
           <div>
             <h3 className="text-lg font-semibold text-white">
-              MSc Artificial Intelligence
+              MSc Robotics and Intelligent Systems
             </h3>
             <p className="text-neutral-400">
               Nottingham Trent University &bull; 2024 – Present
             </p>
             <p className="mt-2 text-sm text-neutral-500">
-              Focus: Multi-agent LLM orchestration, AI safety, guardrails,
-              advanced MLOps, and distributed systems.
+              Focus: Autonomous systems, multi-agent orchestration, AI safety,
+              advanced MLOps, robotics, and intelligent control systems.
             </p>
           </div>
         </div>
@@ -370,7 +372,7 @@ function Contact() {
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <a
-            href="https://www.linkedin.com/in/somtosigwedaniel/"
+            href="https://www.linkedin.com/in/somtoosigwedaniel/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-full border border-white/10 px-5 py-3 text-sm font-medium transition-colors hover:border-blue-400/50 hover:text-blue-400"
