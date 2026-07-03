@@ -6,10 +6,11 @@ This is a personal portfolio site for an MSc Robotics and Intelligent Systems st
 
 ## Key Details
 
-- **Degree**: MSc Robotics and Intelligent Systems (Nottingham Trent University, 2024–present)
+- **Degree**: MSc Robotics and Intelligent Systems (Nottingham Trent University, 2025–present)
 - **Prior**: Applied Sciences in Engineering (Rutgers University)
 - **Focus areas**: Robotics, Autonomous Systems, Generative AI, Multi-Agent Systems, MLOps, LLM Safety
 - **GitHub portfolio**: https://github.com/scod-code/engineering_portfolio
+- **Email**: somtoosigwe1@gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/somtoosigwedaniel/
 - **Deploy branch**: `portfolio` (pushes here trigger GitHub Pages deploy)
 - **Live URL**: https://scod-code.github.io/scod-code/
@@ -29,3 +30,4 @@ This is a personal portfolio site for an MSc Robotics and Intelligent Systems st
 ## Architecture
 
 Single-page app with all content in `src/app/page.tsx` as data objects (`PROJECTS`, `SKILLS`, `NAV_LINKS`). Icons are custom SVG components in `icons.tsx`. No external component libraries.
+

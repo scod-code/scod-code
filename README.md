@@ -53,6 +53,7 @@ src/
 
 - **GitHub Portfolio Repo:** [github.com/scod-code/engineering_portfolio](https://github.com/scod-code/engineering_portfolio)
 - **LinkedIn:** [linkedin.com/in/somtoosigwedaniel](https://www.linkedin.com/in/somtoosigwedaniel/)
+- **Email:** somtoosigwe1@gmail.com
 - **GitHub Profile:** [github.com/scod-code](https://github.com/scod-code)
 
 ## Customization
@@ -63,3 +64,4 @@ All content is defined as data objects at the top of `src/app/page.tsx`:
 - `NAV_LINKS` — navigation items
 
 Update these objects to modify your portfolio content without touching the component structure.
+
