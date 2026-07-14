@@ -36,51 +36,51 @@ interface Project {
 
 const PROJECTS: Project[] = [
   {
-    title: "Multi-Agent LLM Orchestration",
+    title: "Explainable Agentic AI Code Evaluation",
     description:
-      "Designing and implementing multi-agent systems with LLM orchestration, guardrails, and AI safety pipelines for production-grade GenAI applications.",
-    tags: ["LangChain", "Python", "FastAPI", "Multi-Agent", "LLM Safety"],
+      "Zero-trust, 5-container AI evaluation platform classifying unknown scripts using runtime telemetry. Features LLM-generated risk explanations, adversarial probing, and MongoDB persistence.",
+    tags: ["Python", "Docker", "Ollama", "MongoDB", "RL"],
     icon: BrainIcon,
     link: "https://github.com/scod-code/engineering_portfolio",
   },
   {
-    title: "Min-Heap Timeline Aggregation",
+    title: "MLOps CI/CD Pipeline for LLM Validation",
     description:
-      "High-performance event aggregation engine using min-heap data structures. Achieved O(N log L) complexity with comprehensive unit testing at 1M+ event scale.",
-    tags: ["C++", "STL", "Algorithms", "Unit Testing", "Performance"],
+      "Production-structured pipeline converting a simulator into a 5-stage declarative Groovy Jenkins pipeline. Validates human and LLM-generated code via a 9-test suite with MQTT telemetry.",
+    tags: ["Jenkins", "Docker", "pytest", "MQTT", "MLOps"],
+    icon: WrenchIcon,
+    link: "https://github.com/scod-code/engineering_portfolio",
+  },
+  {
+    title: "Multimodal Emotion Recognition System",
+    description:
+      "Perception pipeline classifying 8 emotions from 1,440 audio-video clips using separate and fusion modules. Best model achieved 88.7% accuracy via early-fusion MLP architectures.",
+    tags: ["TensorFlow", "OpenCV", "librosa", "Sensor Fusion"],
+    icon: BrainIcon,
+    link: "https://github.com/scod-code/engineering_portfolio",
+  },
+  {
+    title: "Min-Heap Timeline Aggregation & Algorithms",
+    description:
+      "C++ event aggregation system merging sorted streams from multiple sources with O(N log L) complexity. Processed 1M+ events in <500ms using custom RAII-based MinHeap classes.",
+    tags: ["C++", "STL", "OOP", "Algorithms"],
     icon: CpuIcon,
     link: "https://github.com/scod-code/engineering_portfolio",
   },
   {
-    title: "Graph Algorithms & Dynamic Programming",
+    title: "Sensor Fusion with Kalman Filtering",
     description:
-      "Implementation suite of BFS, DFS, topological sorting, and dynamic programming solutions with full complexity analysis and documentation.",
-    tags: ["C++", "Graphs", "DP", "BFS/DFS", "Topological Sort"],
+      "Simulated a 40-second tracking scenario with noisy GPS and drifting IMU signals. Benchmarked various estimations; the best Kalman filter result reduced RMSE by 97% versus IMU alone.",
+    tags: ["Python", "NumPy", "FilterPy", "Robotics"],
+    icon: DatabaseIcon,
+    link: "https://github.com/scod-code/engineering_portfolio",
+  },
+  {
+    title: "Federated Learning & Adversarial Robustness",
+    description:
+      "Simulated a 12-client non-IID federated learning system under sign-flip poisoning. Used Bayesian optimization (Optuna) on a 5D hyperparameter space to achieve robust aggregation.",
+    tags: ["PyTorch", "Federated Learning", "Optuna", "ML Safety"],
     icon: CodeIcon,
-    link: "https://github.com/scod-code/engineering_portfolio",
-  },
-  {
-    title: "Image Processing Library",
-    description:
-      "Object-oriented image processing library using template programming, copy constructors, and manual memory management. Demonstrates advanced C++ OOP principles.",
-    tags: ["C++", "OOP", "Templates", "Memory Management"],
-    icon: DatabaseIcon,
-    link: "https://github.com/scod-code/engineering_portfolio",
-  },
-  {
-    title: "Data Analysis & GUI Application",
-    description:
-      "Interactive Tkinter GUI with Pandas-driven data pipeline and Matplotlib visualizations, analyzing a 500-student academic dataset.",
-    tags: ["Python", "Tkinter", "Pandas", "Matplotlib", "Data Viz"],
-    icon: DatabaseIcon,
-    link: "https://github.com/scod-code/engineering_portfolio",
-  },
-  {
-    title: "MLOps & CI/CD for ML",
-    description:
-      "End-to-end ML pipelines with Docker containerization, FastAPI serving, and CI/CD automation for model deployment from research to production.",
-    tags: ["Docker", "FastAPI", "PyTorch", "CI/CD", "MLOps"],
-    icon: WrenchIcon,
     link: "https://github.com/scod-code/engineering_portfolio",
   },
 ];
@@ -88,39 +88,36 @@ const PROJECTS: Project[] = [
 const SKILLS: Record<string, string[]> = {
   "Languages & Frameworks": [
     "Python",
-    "C++ (STL, OOP)",
-    "TypeScript",
-    "FastAPI",
-    "LangChain",
+    "C++ (STL, OOP, RAII)",
+    "TypeScript/JavaScript",
     "PyTorch",
+    "TensorFlow/Keras",
+    "scikit-learn",
   ],
-  "AI/ML & Robotics": [
-    "Multi-Agent Systems",
-    "LLM Fine-tuning",
-    "LLM Safety & Evaluation",
-    "Generative AI",
-    "RAG Pipelines",
-    "Robotics & Control",
-    "Autonomous Systems",
+  "AI & Perception": [
+    "Computer Vision (OpenCV)",
+    "Multimodal Fusion",
+    "Sensor Fusion",
+    "LLM Integration",
+    "Federated Learning",
+    "Adversarial Robustness",
+    "Reinforcement Learning",
   ],
-  "Core CS": [
+  "Core CS & Data": [
+    "Data Structures & Algorithms",
     "Dynamic Programming",
-    "Graph Algorithms",
-    "Data Structures",
-    "Unit Testing",
-    "Memory Management",
-    "OOP Design Patterns",
+    "Signal Processing (EEG)",
+    "Pandas / NumPy / SciPy",
+    "Unit Testing (pytest)",
   ],
-  "Tools & Infrastructure": [
-    "Git",
-    "Docker",
-    "CI/CD",
-    "GDB",
-    "Jupyter",
-    "Make",
-    "MATLAB",
-    "ROS",
+  "Infrastructure & MLOps": [
+    "Docker Compose",
+    "Jenkins / CI/CD",
+    "MongoDB",
     "REST APIs",
+    "MQTT",
+    "Git/GitHub",
+    "AI Developer Tooling",
   ],
 };
 
@@ -171,12 +168,10 @@ function Hero() {
           <span className="text-blue-400">Osigwe-Daniel</span>
         </h1>
         <p className="mb-2 text-xl text-neutral-300 sm:text-2xl">
-          Robotics &amp; Intelligent Systems &bull; AI/ML Engineer
+          AI &amp; Robotics Engineer &bull; MLOps &bull; Perception
         </p>
         <p className="mx-auto mb-8 max-w-2xl text-neutral-500">
-          MSc Robotics and Intelligent Systems at Nottingham Trent University.
-          Building intelligent autonomous systems, end-to-end ML pipelines,
-          and pushing the frontier of multi-agent orchestration and AI safety.
+          MSc Robotics and Intelligent Systems student building production-grade AI systems end-to-end. Experienced in model pipelines, multi-container infrastructure, CI/CD automation, and robust computer vision applications.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <a
@@ -211,25 +206,25 @@ function About() {
       <div className="space-y-4 text-neutral-400 leading-relaxed">
         <p>
           I&apos;m an engineer at the intersection of{" "}
+          <span className="text-white font-medium">Artificial Intelligence</span>,{" "}
           <span className="text-white font-medium">Robotics</span>,{" "}
-          <span className="text-white font-medium">Intelligent Systems</span>,{" "}
-          <span className="text-white font-medium">Generative AI</span>, and{" "}
+          <span className="text-white font-medium">Computer Vision</span>, and{" "}
           <span className="text-white font-medium">MLOps</span>. I design and build
-          autonomous systems, deploy end-to-end ML pipelines, and engineer scalable
-          solutions from research prototype to production.
+          production-grade systems end-to-end, moving seamlessly from model pipelines 
+          to multi-container infrastructure and CI/CD automation.
         </p>
         <p>
           My academic journey started at Rutgers University with Applied Sciences
           in Engineering, where I developed a strong foundation in C++, algorithms,
-          and systems-level thinking. I&apos;m now completing my MSc in Robotics
+          and systems-level thinking. I&apos;m currently completing my MSc in Robotics
           and Intelligent Systems at Nottingham Trent University, focusing on
-          multi-agent orchestration, autonomous systems, and AI safety pipelines.
+          artificial perception, computational intelligence, and AI systems deployment.
         </p>
         <p>
           I bridge the gap between low-level system efficiency and high-level AI
           research — equally comfortable optimizing memory-managed C++ code and
-          embedded systems as I am fine-tuning large language models and deploying
-          them behind FastAPI endpoints with Docker.
+          embedded systems as I am building zero-trust AI evaluation platforms,
+          federated learning systems, and multimodal emotion recognition pipelines.
         </p>
       </div>
     </section>
@@ -334,8 +329,7 @@ function Education() {
               Nottingham Trent University &bull; 2025 – Present
             </p>
             <p className="mt-2 text-sm text-neutral-500">
-              Focus: Autonomous systems, multi-agent orchestration, AI safety,
-              advanced MLOps, robotics, and intelligent control systems.
+              Focus: Artificial Perception, Computational Intelligence, MLOps, Robotics, reinforcement learning, optimisation, signal processing, and AI systems deployment.
             </p>
           </div>
         </div>
@@ -351,8 +345,7 @@ function Education() {
               Rutgers University &bull; Completed
             </p>
             <p className="mt-2 text-sm text-neutral-500">
-              Foundation in C++, algorithms, data structures, OOP design,
-              and systems-level programming.
+              Foundation in engineering mathematics, control systems, algorithms, software development, and technical problem solving.
             </p>
           </div>
         </div>
