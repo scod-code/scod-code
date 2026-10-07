@@ -30,7 +30,7 @@ I'm a postgraduate student in Robotics and Intelligent Systems, building practic
 
 | Project | What it contains | Stack |
 |---|---|---|
-| [engineering_portfolio](https://github.com/scod-code/engineering_portfolio) | Python, C and C++ programming foundations: course labs, a heart-failure prediction analysis, and two image-processing libraries (C and C++) | Python, C, C++ |
+| [programming-foundations](https://github.com/scod-code/programming-foundations) | Python, C and C++ programming foundations: course labs, a heart-failure prediction analysis, and two image-processing libraries (C and C++) | Python, C, C++ |
 | [ai-safety-system](https://github.com/scod-code/ai-safety-system) | COMP40771 capstone: an adaptive code-safety harness that runs unknown scripts in a sandbox, scores behavioural risk, and probes weak spots with GA/PSO/RL — plus the ten module labs | Python, Docker, Jenkins, MQTT |
 | [multimodal-emotion-ai](https://github.com/scod-code/multimodal-emotion-ai) | Audio-visual emotion recognition on RAVDESS + FELT with three fusion strategies (early-fusion MLP, weighted late fusion, logistic meta-classifier) | Python, scikit-learn, librosa |
 | [cognitive_coursework](https://github.com/scod-code/cognitive_coursework) | Cognitive robotics system: Nav2 autonomous navigation, OctoMap 3D mapping, and YOLO sign/object detection with traffic-rule speed control | ROS 2, Gazebo, YOLO |
